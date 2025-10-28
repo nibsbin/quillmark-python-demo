@@ -3,7 +3,6 @@ QUILL: usaf_memo
 letterhead_title: DEPARTMENT OF THE AIR FORCE
 letterhead_caption:
   - HEADQUARTERS UNITED STATES AIR FORCE
-  - WASHINGTON DC 20330-1000
 date: 2025-10-28
 memo_for:
   - ALL PERSONNEL

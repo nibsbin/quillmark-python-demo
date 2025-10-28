@@ -1,1 +1,1 @@
-quillmark>=0.6.5
+quillmark>=0.6.6
