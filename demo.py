@@ -53,6 +53,11 @@ def main():
         print("Rendering to PDF...")
         result = workflow.render(parsed, format=quillmark.OutputFormat.PDF)
         
+        # Check if artifacts were generated
+        if not result.artifacts:
+            print("Error: No artifacts were generated!")
+            sys.exit(1)
+        
         # Save the result
         print(f"Saving output to {output_file}...")
         result.artifacts[0].save(str(output_file))
