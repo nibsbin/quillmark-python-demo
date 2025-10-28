@@ -62,7 +62,7 @@ def main():
         print(f"Saving output to {output_file}...")
         result.artifacts[0].save(str(output_file))
         
-        print(f"\n✓ Successfully generated {output_file}")
+        print(f"\n✓ Successfully generated ./{output_file}")
         print(f"  Artifacts created: {len(result.artifacts)}")
         
     except quillmark.ParseError as e:
